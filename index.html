@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dres Canvas</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div class="nav">
+      <div class="clr" data-clr="#000"></div>
+      <div class="clr" data-clr="red"></div>
+      <div class="clr" data-clr="orange"></div>
+      <div class="clr" data-clr="blue"></div>
+      <div class="clr" data-clr="purple"></div>
+      <div class="clr" data-clr="yellowgreen"></div>
+      <div class="clr" data-clr="yellow"></div>
+      <div class="clr" data-clr="#fff"></div>
+      <button><div class="clear">Clear</div></button>
+      <button><div class="clear">Save</div></button>
+      <input type="color" value="#FFFFFF" id="favcolor" />
+      <input
+        type="range"
+        name="ageInputName"
+        id="ageInputName"
+        value="5"
+        min="1"
+        max="10"
+        oninput="ageOutputId.value = ageOutputId.value"
+      />
+      <output id="ageOutputId"></output>
+      <div class="emoji">🎨</div>
+    </div>
+  </body>
+</html>
